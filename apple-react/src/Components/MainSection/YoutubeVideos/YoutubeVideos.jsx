@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import "./YouTube.css";
+import "./YoutubeVideos.css";
 
-function YouTube() {
+function YoutubeVideos() {
   const [youTubeVideos, setYouTubeVideos] = useState([]);
 
   const API_KEY = "AIzaSyA1YUB0d9I9Hx0e8_PR25SkBP_hGWW12fo";
@@ -64,4 +64,4 @@ function YouTube() {
   );
 }
 
-export default YouTube;
+export default YoutubeVideos;
