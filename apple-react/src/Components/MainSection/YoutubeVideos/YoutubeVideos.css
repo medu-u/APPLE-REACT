@@ -1,6 +1,6 @@
 .youtubeVideosWrapper {
   width: 100%;
-  padding: 10px 0;
+  padding: 5px 0;
   /* light background */
 }
 
@@ -10,9 +10,9 @@
 
 .titleWrapper {
   font-size: 18px;
-  font-weight: 500;
-  color: #222;
-  margin-bottom: 15px;
+  font-weight: 700;
+  color: #1d1d1d;
+  margin-bottom: 10px;
   letter-spacing: 1px;
 }
 
@@ -38,8 +38,23 @@
 }
 
 .videoTitle {
-  font-size: 20px;
-  font-weight: 600;
-  padding: 15px;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px;
   color: #333;
+}
+.videoTitle :hover {
+ color: black;
+}
+.videoDesc {
+  font-size: 8px;
+  color: #515154;
+  margin-top: 2px;
+}
+
+.productionDate {
+  font-size: 9px;
+  color: #6e6e73;
+  font-weight: 400;
+  margin-top: 1px;
 }

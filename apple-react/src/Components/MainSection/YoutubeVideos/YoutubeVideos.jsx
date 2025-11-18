@@ -51,6 +51,9 @@ function YoutubeVideos() {
                       <div className="videoDesc">
                         {singleVideo.snippet.description}
                       </div>
+                      <div className="productionDate">
+                        {singleVideo.snippet.publishedAt}
+                      </div>
                     </div>
                   </div>
                 </div>
